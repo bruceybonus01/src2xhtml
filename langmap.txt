@@ -1,0 +1,4 @@
+C	.c	.h
+CPP	.cpp	.hpp	.cxx	.hxx
+Python	.py
+Java	.java

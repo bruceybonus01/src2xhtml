@@ -1,0 +1,69 @@
+LANGUAGE C
+	# Global
+	FOREGROUND           #F8F8F2
+	BACKGROUND           #272822
+	
+	# Blocks (comments, strings, chars)
+	BLOCK	   ' '       #E6DB74
+	BLOCK      " "       #E6DB74
+	BLOCK      /* */     #88846f
+	
+	# Naive constants
+	TOKEN      0         #AE81FF
+	TOKEN	   1         #AE81FF
+	TOKEN      2         #AE81FF
+	TOKEN      3         #AE81FF
+	TOKEN      4         #AE81FF
+	TOKEN      5         #AE81FF
+	TOKEN      6         #AE81FF
+	TOKEN      7         #AE81FF
+	TOKEN      8         #AE81FF
+	TOKEN      9         #AE81FF
+	TOKEN      true      #AE81FF
+	TOKEN      TRUE      #AE81FF
+	TOKEN      false     #AE81FF
+	TOKEN      FALSE     #AE81FF
+
+	# Types
+	TOKEN      struct    #66D9EF ITALIC
+	TOKEN      enum      #66D9EF ITALIC
+	TOKEN      int       #66D9EF ITALIC
+	TOKEN	   char      #66D9EF ITALIC
+	TOKEN	   bool      #66D9EF ITALIC
+	TOKEN      BOOL      #66D9EF ITALC
+	TOKEN      float     #66D9EF ITALIC
+	TOKEN      double    #66D9EF ITALIC
+	TOKEN      long      #66D9EF ITALIC
+	TOKEN      short     #66D9EF ITALIC
+	TOKEN      unsigned  #66D9EF ITALIC
+	
+	# Loops
+	TOKEN	   do        #F92672
+	TOKEN	   for       #F92672
+	TOKEN      while     #F92672
+
+	# Control Flow
+	TOKEN      if        #F92672
+	TOKEN      else      #F92672
+	TOKEN      switch    #F92672
+	TOKEN      case      #F92672
+	TOKEN      default   #F92672
+	TOKEN      return    #F92672
+	TOKEN	   break     #F92672
+	TOKEN      goto      #F92672
+	TOKEN      continue  #F92672
+
+	# Operators
+	TOKEN	   +         #F92672
+	TOKEN      -         #F92672
+	TOKEN      *         #F92672
+	TOKEN      /         #F92672
+	TOKEN      !         #F92672
+	TOKEN      >         #F92672
+	TOKEN      <         #F92672
+	TOKEN      &         #F92672
+
+	# Pre-processor
+	TOKEN      #define   #F92672 
+	TOKEN	   #include  #F92672
+END LANGUAGE
