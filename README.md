@@ -11,7 +11,7 @@ It's not perfect, but I'm working on it. Here is the output of running the examp
 
 On my system (Intel core i5 running Manjaro), creating this file took 1ms. So theoretically, this can achieve 1000 files per second. Although, time taken is proportional to both the file length, and the complexity of the theme.
 
-<img src="https://adambruce.dev/res/xhtml_beta.png" alt="drawing" width="800"/>
+![Preview](https://github.com/fputs/src2xhtml/blob/assets/xhtml_beta.png)
 
 ## Compiling
 
